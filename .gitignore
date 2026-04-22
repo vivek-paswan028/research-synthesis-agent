@@ -1,4 +1,4 @@
-
+.env
 __pycache__/
 *.pyc
 *.pyo
@@ -6,4 +6,26 @@ __pycache__/
 *.db
 *.sqlite
 *.log   
+# Ignore environment variable files
 .env
+.env.local
+.env.*.local    
+# Ignore API key files
+*.key
+*.keys
+*.pem
+*.crt
+*.cer
+*.p12
+*.pfx
+# Ignore IDE and editor files
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+# Ignore OS files
+
+.DS_Store
+Thumbs.db
+    
